@@ -1,0 +1,13 @@
+class Example9 
+{
+	public static void main(String[] args) 
+	{	//boxing operations
+		Integer i1=100;
+		System.out.println(i1);
+		System.out.println(i1.toString());
+		//unboxing
+		float f1= new Float(200.5f);
+		System.out.println(f1);
+		System.out.println(f1.toString());
+	}
+}
