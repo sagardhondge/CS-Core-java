@@ -1,0 +1,9 @@
+package packone;
+import packTwo.policyBazar;
+class customer 
+{
+	public static void main(String[] args) 
+	{	policyBazar ref = new policyBazar();
+		ref.getMedicalPolicy();
+	}
+}

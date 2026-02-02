@@ -1,0 +1,35 @@
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.BufferedInputStream;
+import java.io.IOException;
+import java.io.FileOutputStream;
+import java.io.BufferedOutputStream;
+
+class BufferedByteStreamChannel
+{
+	public static void main(String[] args)  throws FileNotFoundException , IOException
+	{	FileInputStream fis = new FileInputStream("D:\\ByteBufferedSource.txt");
+		BufferedInputStream bis = new BufferedInputStream(fis);
+		FileOutputStream fos = new FileOutputStream("D:\\ByteBufferedDest.txt");
+		BufferedOutputStream bos = new BufferedOutputStream(fos);
+		int info;
+		while ((info=bis.read())!=-1)
+		{	System.out.print((char)info);
+			bos.write(info);
+		}
+		bis.close();   
+        bos.close();
+	}
+}
+//"D:\ByteBufferedSource.txt"
+// FileInputStream class
+// public FileInputStream(String path) throws FileNotFoundException
+// BufferedInputStream class:-
+// public BufferedInputStream(InputStream in)
+// public int read() throws IOException
+
+// FileOutputStream class
+// public FileOutputStream(String path) throws FileNotFoundException
+// BufferedOutputStream class:-
+// public BufferedOutputStream(OutputStream out)
+// public void write(int b) throws IOException

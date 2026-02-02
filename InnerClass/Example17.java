@@ -1,0 +1,21 @@
+interface It1
+{	void m1();
+	void m2();
+}
+
+class Example17
+{	It1 i= new It1()
+	{
+		public void m1()
+		{	System.out.println("Inside m1 Method");
+		}
+		public void m2()
+		{	System.out.println("Inside m1 Method");
+		}
+	};
+	public static void main(String[] args) 
+	{	Example17 ref = new Example17();
+		ref.i.m1();
+		ref.i.m2();
+	}
+}

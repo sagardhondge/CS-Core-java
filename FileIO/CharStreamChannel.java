@@ -1,0 +1,32 @@
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+class CharStreamChannel
+{
+    public static void main(String[] args) throws IOException
+    {   FileReader fr = new FileReader("D:\\CharSource.txt");
+        FileWriter fw = new FileWriter("D:\\CharDestination.txt");
+
+        int info;
+        while ((info = fr.read()) != -1)
+        {
+            System.out.print((char) info);
+            fw.write(info);
+        }
+
+        fr.close();
+        fw.close();
+
+        System.out.println("\nFile copied successfully");
+    }
+} 
+
+//"D:\CharSource.txt"
+// FileReaderclass
+// public FileReaderclass(String path) throws FileNotFoundException
+// public int read() throws IOException
+// FileWriterClass
+// public FileWriterclass(String FileName) throws IOException
+// public void write(int b) throws IOException
