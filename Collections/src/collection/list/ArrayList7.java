@@ -1,4 +1,4 @@
-import collection.list.Emp;
+package collection.list;
 
 import java.util.ArrayList;
 

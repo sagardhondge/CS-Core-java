@@ -1,3 +1,5 @@
+package collection.list;
+
 import java.util.ArrayList;
 
 public class ArrayList6 {

@@ -10,7 +10,7 @@ public class ArrayList17
         ArrayList<Emp> al = new ArrayList<Emp>();
 
         al.add(new Emp(101, "Akash"));
-        al.add(new Emp(202, "Nikita"));
+        al.add(new Emp(202, "Sagar"));
         al.add(new Emp(303, "Pravin"));
 
         Iterator<Emp> i = al.iterator();
