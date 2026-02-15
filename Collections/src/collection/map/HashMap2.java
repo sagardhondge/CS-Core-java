@@ -6,12 +6,12 @@ import java.util.Set;
 
 public class HashMap2 {
     public static void main(String[] args) {
-        HashMap hs1 = new HashMap();
-        hs1.put(111,'x'); hs1.put(222,'y'); hs1.put(333,'z');
-        System.out.println(hs1);
-        Set s= hs1.keySet();// gives set values
+        HashMap hm1 = new HashMap();
+        hm1.put(111,'x'); hm1.put(222,'y'); hm1.put(333,'z');
+        System.out.println(hm1);
+        Set s= hm1.keySet();// gives set values
         System.out.println(s);
-        Collection c=  hs1.values();
+        Collection c=  hm1.values();
         System.out.println(c);
     }
 }
