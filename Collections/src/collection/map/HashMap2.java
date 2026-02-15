@@ -1,5 +1,6 @@
 package collection.map;
 
+import java.util.Collection;
 import java.util.HashMap;
 import java.util.Set;
 
@@ -8,7 +9,9 @@ public class HashMap2 {
         HashMap hs1 = new HashMap();
         hs1.put(111,'x'); hs1.put(222,'y'); hs1.put(333,'z');
         System.out.println(hs1);
-        Set s= hs1.keySet();
+        Set s= hs1.keySet();// gives set values
         System.out.println(s);
+        Collection c=  hs1.values();
+        System.out.println(c);
     }
 }
