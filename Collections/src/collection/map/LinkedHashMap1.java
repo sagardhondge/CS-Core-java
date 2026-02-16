@@ -1,6 +1,5 @@
 package collection.map;
 
-
 import java.util.LinkedHashMap;
 
 public class LinkedHashMap1 {
