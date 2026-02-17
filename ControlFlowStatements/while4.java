@@ -7,7 +7,6 @@ public class while4 {
                 System.out.println("Num is "+num);
             }
             num++;
-
         }
     }
 }
