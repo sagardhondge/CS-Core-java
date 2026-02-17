@@ -1,14 +1,21 @@
-class class Switch6
+class Switch6
 {
-	public static void main(String[] args) 
-	{	System.out.println("Start @ Cyber Success");
-		int a=5;
+	public static void main(String[] args)
+	{
+		System.out.println("Start @ Cyber Success");
+
+		int a = 5;
+
 		switch (a)
-		{	System.out.println("Inside Switch");
+		{
+			case 5:
+				System.out.println("Inside Switch");
+				break;
+
+			default:
+				System.out.println("No Match Found");
 		}
 
-		System.out.println("StOP @ Cyber Success");
-	}	
-
-} 
-
+		System.out.println("Stop @ Cyber Success");
+	}
+}

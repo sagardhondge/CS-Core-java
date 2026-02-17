@@ -8,8 +8,8 @@ class Switch10
 				break;
 		case 127:System.out.println("B");
 				break;
-		case 128:System.out.println("C");
-				break;
+//		case 128:System.out.println("C");
+//				break;
 		default :System.out.println("Default");
 				break;
 		}

@@ -1,4 +1,4 @@
-class class Switch7
+class Switch7
 {
 	public static void main(String[] args) 
 	{	System.out.println("Start @ Cyber Success");

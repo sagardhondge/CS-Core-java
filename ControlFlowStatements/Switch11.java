@@ -1,17 +1,25 @@
 class Switch11
 {
-	public static void main(String[] args) 
-	{	int x=126;
+	public static void main(String[] args)
+	{
+		int x = 126;
+
 		switch (x)
 		{
-		case 126:System.out.println("A");
+			case 126:
+				System.out.println("A");
 				break;
-		case 126:System.out.println("B");
+
+			case 127:   // changed value
+				System.out.println("B");
 				break;
-		case 128:System.out.println("C");
+
+			case 128:
+				System.out.println("C");
 				break;
-		default :System.out.println("Default");
-				break;
+
+			default:
+				System.out.println("Default");
 		}
 	}
 }
