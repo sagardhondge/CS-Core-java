@@ -8,7 +8,7 @@ class Example21
 			System.out.println("Inside try block");
 		}
 		catch (Exception ai)
-		{	System.out.println("Inside Catch Block")
+		{	System.out.println("Inside Catch Block");
 		}
 		finally 
 		{

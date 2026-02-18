@@ -5,7 +5,7 @@ class Demo
 
     static void m2()
     {
-        Demo d1 = new Demo();      
+        Demoo d1 = new Demoo();
         res2 = d1.a + Sample.b;    
         System.out.println("Inside m1 Method");
 		return;
@@ -20,7 +20,7 @@ class Sample
 
     void m1()
     {
-        Demo d2 = new Demo();      
+        Demoo d2 = new Demoo();
         res1 = d2.a + b;           
         System.out.println("Inside m1 Method");
 		return;
@@ -38,9 +38,9 @@ class Practice6
         s1.m1();
 
         //call m2
-        Demo.m2();
+        Demoo.m2();
 
-        float finalResult = Sample.res1 + Demo.res2;
+        float finalResult = Sample.res1 + Demoo.res2;
 
         System.out.println(finalResult);
 

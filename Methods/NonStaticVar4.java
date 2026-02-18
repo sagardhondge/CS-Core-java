@@ -5,7 +5,7 @@ class NonStaticVar4
 {	public static void main(String[] args) 
 	{
 		System.out.println("satrt @ cyber sucess");
-		Demo d = new Demo();
+		Demoo d = new Demoo();
 		System.out.println(d.b);
 		System.out.println("satrt @ cyber sucess");
 	}

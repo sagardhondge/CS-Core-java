@@ -2,13 +2,13 @@ class Demo
 {	int a=100;
 	static float b=200.5f;
 	float m1()
-	{	Demo d1= new Demo();
-		float res1=d1.a+Demo.b;
+	{	Demoo d1= new Demoo();
+		float res1=d1.a+ Demoo.b;
 		return res1;
 	}
 	float m2()
-	{	Demo d2=new Demo();
-		float res2=d2.a+Demo.b;
+	{	Demoo d2=new Demoo();
+		float res2=d2.a+ Demoo.b;
 		return res2;
 		System.out.println(m2);
 	}
@@ -19,7 +19,7 @@ class Practice4
 	public static void main(String[] args) 
 	{
 		System.out.println("Start @ Cyber Success");
-		Demo d= new Demo();
+		Demoo d= new Demoo();
 		result1=d.m1();
 		result2=d.m2();
 		float finalResult=result1+result2;

@@ -16,8 +16,8 @@ class StaticMethod9
 	{	System.out.println("Start @ cyber Sucess");
 		int var1=100;
 		float var2=200.5f;
-		int result1= Demo.m1(var1);
-		float result2 = Demo.m2(var2);
+		int result1= Demoo.m1(var1);
+		float result2 = Demoo.m2(var2);
 		float FinalResult =result1 + result2;
 		System.out.println("The result is "+ FinalResult);
 		System.out.println("Stop @ cyber Sucess");

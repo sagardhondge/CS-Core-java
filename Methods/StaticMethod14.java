@@ -1,6 +1,6 @@
-class Demo
+class Demoo
 {	static int x = 100;
-	stativ void test()
+	static void test()
 	{
 		System.out.println("Inside m1 Method");
 	}
@@ -8,8 +8,8 @@ class Demo
 class StaticMethod14
 {	public static void main(String[] args) 
 	{	System.out.println("Start @ cyber Sucess");
-		System.out.println(Demo.x);
-		Demo.test();
+		System.out.println(Demoo.x);
+		Demoo.test();
 		System.out.println("Stop @ cyber Sucess");
 	}
 }

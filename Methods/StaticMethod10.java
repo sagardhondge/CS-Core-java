@@ -8,7 +8,7 @@ class Demo
 class Sample
 {	static int var1=100;
 	static float m2(float y)
-	{	float result2 = Demo.var2 + 20.5f;
+	{	float result2 = Demoo.var2 + 20.5f;
 		return result2;
 	}
 }
@@ -18,7 +18,7 @@ class StaticMethod10
 	{	System.out.println("Start @ cyber Sucess");
 		int x=10;
 		float y=20.5f;
-		int result1= Demo.m1(x);
+		int result1= Demoo.m1(x);
 		float result2 = Sample.m2(y);
 		float FinalResult =result1 + result2;
 		System.out.println("The result is "+ FinalResult);

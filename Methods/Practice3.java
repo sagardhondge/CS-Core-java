@@ -5,12 +5,12 @@ class Demo
 
 class Practice3 
 {	void m1()
-	{   Demo d1= new Demo();
-		System.out.println(d1.a+Demo.b);
+	{   Demoo d1= new Demoo();
+		System.out.println(d1.a+ Demoo.b);
 	}
 	void m2()
-	{	Demo d2 = new Demo(); 
-		System.out.println(d2.a+Demo.b);
+	{	Demoo d2 = new Demoo();
+		System.out.println(d2.a+ Demoo.b);
 	}
 	public static void main(String[] args) 
 	{
