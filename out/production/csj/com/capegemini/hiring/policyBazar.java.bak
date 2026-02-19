@@ -1,7 +1,0 @@
-package packTwo;
-
-public class policyBazar
-{	void getMedicalPolicy()
-	{	System.out.println("Inside M");
-	}
-}
