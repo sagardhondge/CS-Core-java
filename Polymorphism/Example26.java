@@ -1,6 +1,6 @@
 class Parent
 {	public void m1()
-	{	System.out.println("Inside m1 mwthod - Parent");
+	{	System.out.println("Inside m1 method - Parent");
 	}
 }
 class Child extends Parent

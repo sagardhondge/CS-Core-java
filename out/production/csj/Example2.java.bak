@@ -1,0 +1,7 @@
+class Example2
+{
+	public static void main(String[] args) 
+	{	Integer i1 = new Integer("one");
+		System.out.println(i1);
+	}
+}

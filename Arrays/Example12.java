@@ -1,4 +1,26 @@
-package PACKAGE_NAME;
-
-public class Example12 {
+class Emp {
+    int empId;
+    String empName;
+    Emp(int empId,String empName)
+    {   this.empId=empId;
+        this.empName=empName;
+    }
+}
+class Example12 {
+    public static void main (String [] args){
+        System.out.println("Start @ cs");
+        emp[] emp = new emp[5];
+        emp[0]= new emp(001,"sagar");
+        emp[2]= new emp(003,"Prem");
+        emp[4]= new emp(005,"Vedant");
+        for (emp ee : emp){
+            if (ee!=null)
+            {   System.out.println(ee.empId+" -"+ee.empName);
+            }
+            else {
+                System.out.println("Employee is not present");
+            }
+        }
+        System.out.println("Stop @ cs");
+    }
 }

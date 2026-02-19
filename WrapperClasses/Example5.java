@@ -7,5 +7,5 @@ class Example5
 	}
 }
 //Integer Class
-//public static Integer valurof(int)
+//public static Integer valueof(int)
 //another method to prtint the wrapper class 
