@@ -7,7 +7,7 @@ class Example25 implements Demo
 	{
 		System.out.println("Start @ cyber Success");
 		System.out.println(a);
-		a=10;
+		int a=10;
 		System.out.println(a);
 		System.out.println("Stop @ cyber Success");
 	}
