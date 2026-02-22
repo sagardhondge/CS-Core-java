@@ -1,8 +1,8 @@
-class Demo
+class Demoo
 {	String name;
 	double salary;
-	
-	Demo(String name,double salary)
+
+	Demoo(String name,double salary)
 	{	this.name=name;
 		this.salary=salary;
 	}
@@ -18,7 +18,7 @@ class Demo
 class Employee 
 {	
 	public static void main(String[] args) 
-	{	Demo d = new Demo("Sagar", -20000);
+	{	Demoo d = new Demoo("Sagar", -20000);
 		d.display();
 	}
 }
