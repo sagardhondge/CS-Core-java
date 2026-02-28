@@ -1,8 +1,14 @@
+import java.util.Scanner;
+
 public class PalindromeNumber {
 
     public static void main(String[] args) {
 
-        int number = 121;      // Change this value to test
+
+        Scanner sc = new Scanner(System.in);   // correct way
+
+        System.out.print("Enter a number: ");
+        int number = sc.nextInt();       // Change this value to test
         int original = number;
         int reverse = 0;
 
@@ -17,5 +23,6 @@ public class PalindromeNumber {
         } else {
             System.out.println(original + " is Not a Palindrome");
         }
+        sc.close();
     }
 }
