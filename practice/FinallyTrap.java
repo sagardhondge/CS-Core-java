@@ -1,0 +1,2 @@
+public class FinallyTrap {
+}
