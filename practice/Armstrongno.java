@@ -21,6 +21,7 @@ public class Armstrongno {
         while (num > 0) {
             int rem = num % 10;
             int power = 1;
+
             for (int i = 0; i < digits; i++) {
                 power *= rem;
             }
